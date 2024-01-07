@@ -1,0 +1,5 @@
+Header set Cross-Origin-Resource-Policy: same-origin
+Header set Access-Control-Allow-Origin "https://secuniversite.fr"
+Header set Access-Control-Allow-Methods "GET"
+Header set Access-Control-Allow-Headers "Content-Type"
+Header set Content-Security-Policy "default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval'; script-src-attr 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'none'; img-src 'self'; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; prefetch-src 'self'; child-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'none'"
