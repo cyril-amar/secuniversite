@@ -1,4 +1,5 @@
-Header set Cross-Origin-Resource-Policy: same-origin
+Header set Strict-Transport-Security "3600; includeSubDomains"
+Header set Cross-Origin-Resource-Policy "same-origin"
 Header set Access-Control-Allow-Origin "https://secuniversite.fr"
 Header set Access-Control-Allow-Methods "GET"
 Header set Access-Control-Allow-Headers "Content-Type"
